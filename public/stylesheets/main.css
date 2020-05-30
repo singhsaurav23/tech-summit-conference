@@ -1,0 +1,119 @@
+html,
+body{
+  height:100%;
+}
+.contain{
+  display:flex;
+   justify-content:center;
+   align-items:center;
+   height:100vh;
+}
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail {
+	padding: 0;
+}
+#organizer {
+	text-align: center;
+	color: purple;
+	font-family: 'Ultra';
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+#year {
+	color: purple;
+}
+#theme h1{
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Ultra';
+}
+#about h1{
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Ultra';
+}
+#text {
+	margin-left: 180px;
+	margin-right: 150px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+#list {
+	font-size: 17px;
+	color: purple;
+}
+#para {
+	color: purple;
+	font-size: 17px;
+	line-height: 40px;
+}
+#img {
+   height: 100%;
+   width: 100%;
+}
+#img1 {
+	height: 60%;
+	width: 100%;
+}
+#img2 {
+	background: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') center center no-repeat;
+	 background-size: cover;
+	height: 100%;
+  width: 100%;
+}
+#org {
+	background: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&auto=format&fit=crop&w=1051&q=80') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;	
+}
+#org-caption {
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;	
+}
+#stage{
+  background: url('https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;	
+}
+#stage-caption {
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;	
+}
+#stage-caption h1{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#main-footer {
+  background: #333333;
+  color: white;
+  padding: 6rem 0;
+  font-size: 1.3rem;
+}
+#main-footer h6{
+  color: #718FA9;
+}
+#main-footer a {
+  color: #6C6F73;
+}
+
